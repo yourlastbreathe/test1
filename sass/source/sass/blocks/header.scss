@@ -1,0 +1,55 @@
+.header {
+  background-color: #B47FF6;
+  color: #ffffff;
+  padding: 55px 58px 48px 155px;
+  margin-bottom: 40px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+
+  &__burger {
+    padding: 0;
+    width: 40px;
+    height: 24px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    background-image: url(../../img/icons/burger.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  &__close {
+    padding: 0;
+    width: 40px;
+    height: 24px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    background-image: url(../../img/icons/close.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  &__list {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    margin: 0;
+    padding: 0;
+
+    &-item {
+
+      &-link {
+        color: #ffffff;
+        text-decoration: none;
+
+        &--current {
+          border-bottom: solid 2px #ffffff;
+        }
+      }
+    }
+  }
+}

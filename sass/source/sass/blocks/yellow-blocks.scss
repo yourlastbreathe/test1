@@ -1,0 +1,32 @@
+.yellow-blocks {
+
+  &__list {
+    display: flex;
+    background-color: #D4FF5A;
+    border-radius: 30px;
+    margin: 0 25px;
+    padding: 25px;
+    gap: 20px;
+    list-style: none;
+    margin-bottom: 40px;
+  }
+
+  &__item {
+    width: 198px;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    border-radius: 35px;
+    background-color: #497957;
+    border: solid 1px #00FF4A;
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 40px;
+  }
+
+  &__description {
+    margin-bottom: 9px;
+  }
+}
+

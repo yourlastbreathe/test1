@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Название проекта</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="page__body">
+  <div class="container">
+    <header class="header">
+      <ul class="header__list">
+        <li class="header__list-item">
+          <a class="header__list-item-link header__list-item-link--current" href="#">
+            Text
+          </a>
+        </li>
+        <li class="header__list-item">
+          <a class="header__list-item-link" href="">
+            Text
+          </a>
+        </li>
+        <li class="header__list-item">
+          <a class="header__list-item-link" href="#">
+            Text
+          </a>
+        </li>
+      </ul>
+      <button class="header__burger" type="button"></button>
+      <div class="menu">
+        <ul class="menu__list">
+          <li class="menu__item">Text</li>
+          <li class="menu__item">Text</li>
+          <li class="menu__item">Text</li>
+          <li class="menu__item">Text</li>
+        </ul>
+        <label for="popupCheckboxOne" class="popup-button">Open pop-up button</label>
+      </div>
+    </header>
+    <section class="slider">
+      <button class="slider__button--prev" id="prev"><img src="img/icons/prev.png"></button>
+      <div class="slider__slide slider__slide--active">
+
+        <h1 class="slider__title">
+          H1 text
+        </h1>
+        <label for="popupCheckboxOne" class="popup-button">Open pop-up button</label>
+
+      </div>
+      <div class="slider__slide">
+
+        <h1 class="slider__title">
+          H1 text1
+        </h1>
+        <label for="popupCheckboxOne" class="popup-button">Open pop-up button</label>
+
+      </div>
+      <div class="slider__slide">
+
+        <h1 class="slider__title">
+          H1 text2
+        </h1>
+        <label for="popupCheckboxOne" class="popup-button">Open pop-up button</label>
+
+      </div>
+      <button class="slider__button--next" id="next"><img src="img/icons/next.png"></button>
+    </section>
+    <section class="green-blocks">
+      <h2 class="green-blocks__title">H2 text</h2>
+      <ul class="green-blocks__list">
+        <li class="green-blocks__item"></li>
+        <li class="green-blocks__item"></li>
+        <li class="green-blocks__item"></li>
+        <li class="green-blocks__item"></li>
+        </ol>
+    </section>
+    <section class="yellow-blocks">
+      <h2 class="yellow-blocks__title">H2 text</h2>
+      <ul class="yellow-blocks__list">
+        <li class="yellow-blocks__item"></li>
+        <li class="yellow-blocks__item"></li>
+        <li class="yellow-blocks__item"></li>
+        <li class="yellow-blocks__item"></li>
+        <li class="yellow-blocks__item"></li>
+      </ul>
+      <div class="yellow-blocks__popup">
+        <div class="yellow-blocks__description">Text utp</div>
+        <label for="popupCheckboxOne" class="popup-button">Open pop-up button</label>
+      </div>
+    </section>
+    <footer class="footer">
+      <ul class="footer__list">
+        <li class="footer__item">Text</li>
+        <li class="footer__item">Text</li>
+        <li class="footer__item">Text</li>
+        <li class="footer__item">Text</li>
+      </ul>
+    </footer>
+
+    <div class="popup__wrapper">
+      <input type="checkbox" class="popup__checkbox" id="popupCheckboxOne">
+      <div class="popup">
+        <div class="popup__content">
+          <label for="popupCheckboxOne" class="popup__closer">X</label>
+          Pop-up
+        </div>
+      </div>
+    </div>
+    <script src="./js/script.js" defer></script>
+  </div>
+</body>
+
+</html>

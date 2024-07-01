@@ -1,0 +1,32 @@
+.slider {
+  background-color: #7029CB;
+  display: flex;
+  padding: 49px 50px 52px 50px;
+  justify-content: space-between;
+  position: relative;
+
+  &__title {
+    margin: 0;
+    padding: 0;
+    margin-right: 32px;
+    margin-top: 9px;
+  }
+
+  &__button--prev, &__button--next {
+    background-color: transparent;
+    border: none;
+  }
+
+  &__slide {
+    position: absolute;
+    opacity: 0;
+    display: flex;
+    left: 30%;
+    top: 30%;
+
+
+    &--active {
+      opacity: 1;
+    }
+  }
+}
